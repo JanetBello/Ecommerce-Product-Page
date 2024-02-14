@@ -1,12 +1,13 @@
 import cart from "../images/icon-cart.svg";
 import Counts from "../Components/Count";
 import HeroSection from "../Components/HeroSection";
+import SliderData from "../Components/SliderData";
 
 const MainSections = () => {
   return (
-    <section className=" mb-20 md:flex md:pr-24 md:pl-24 md:gap-20">
-      <HeroSection />
-      <section className="p-4">
+    <section className=" gap-20 mb-20 md:w-[700] md:flex md:pr-24 md:pl-24 md:gap-32">
+      <HeroSection slides={SliderData} />
+      <section className=" mt-6 p-4 md:w-[30rem]">
         <p className=" mb-4 uppercase text-orange font-700">sneaker company</p>
         <h3 className=" mb-6 text-4xl font-extrabold">
           Fall Limited Edition Sneakers
