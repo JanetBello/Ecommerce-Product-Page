@@ -24,7 +24,7 @@ function ImageSlider({ imageArr, thumbnailArr }) {
       {/* <img className="w-full  h-full" src={imageArr[imageIndex]} alt="" /> */}
 
       <div
-        className="flex md:w-[30rem] md:h-[30rem] transition duration-500 "
+        className="flex md:w-[30rem] h-[30rem] transition duration-500 "
         style={{ transform: `translateX(${-100 * imageIndex}%)` }}
       >
         {imageArr.map((image) => (
