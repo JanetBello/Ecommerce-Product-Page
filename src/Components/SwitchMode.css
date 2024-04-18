@@ -1,0 +1,52 @@
+.switch-container {
+  display: flex;
+  position: absolute;
+  background-color: darkorange;
+  border-radius: 2rem;
+  left: 1rem;
+  color: black;
+  padding: ;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.switch {
+  visibility: hidden;
+}
+
+.switch + label {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: ;
+}
+
+.switch + label: :before {
+  content: "";
+  height: 1em;
+  width: 2em;
+  border-radius: 1em;
+  background-color: orange;
+  margin-right: 0.5em;
+  transiton: background-color 250ms ease-in-out;
+}
+
+.switch + label: :after {
+  content: "";
+  height: 0.8em;
+  width: 0.8em;
+  border-radius: 1em;
+  background-color: orange;
+  position: absolute;
+  left: 0.2em;
+  transiton: background-color 250ms ease-in-out;
+  transiton: 250ms ease-in-out;
+  transiton: 250ms ease-in-out;
+}
+
+.switch:checked + label: :after {
+  transform: translateX(100%);
+}

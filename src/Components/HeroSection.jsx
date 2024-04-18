@@ -4,7 +4,7 @@ import ImageSlider from "./ImageSlider";
 
 const HeroSection = ({ slides }) => {
   return (
-    <section className="">
+    <section className=" relative">
       <ImageSlider
         thumbnailArr={SliderData.thumbnailArr}
         imageArr={SliderData.imageArr}

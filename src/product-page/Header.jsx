@@ -32,7 +32,7 @@ const Header = () => {
         }
       >
         <ul
-          className={`Absolute bg-slate-50 pl-16 p-4 md:p-0 md:pt-1 mt-20 flex md:flex-row flex-col h-full md:h-0  md:mt-0 lg:mt-0 gap-5 
+          className={`Absolute bg-slate-50 pl-16 p-4 md:p-0 md:pt-1 mt-20 flex md:flex-row flex-col h-full md:h-0  md:mt-0 lg:mt-0 gap-5 md:bg-transparent
           ${isHidden ? "hidden" : ""} md:flex`}
         >
           <li>Collectioins</li>

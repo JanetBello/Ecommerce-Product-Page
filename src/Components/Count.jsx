@@ -20,7 +20,7 @@ const Counts = () => {
       <button className="" onClick={decreaseCount}>
         <img src={minus} />
       </button>
-      <p className=" pt-2">{count}</p>
+      <p className=" pt-2 text-black font-700">{count}</p>
       <button className="" onClick={increaseCount}>
         <img src={plus} />
       </button>
